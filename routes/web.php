@@ -16,6 +16,7 @@ use App\Http\Controllers\OeuvreController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Route::view('/', 'welcome');
 
 Route::get('/', function () {
     return view('welcome');

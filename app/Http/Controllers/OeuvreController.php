@@ -8,6 +8,15 @@ use Illuminate\Support\Facades\Redirect;
 
 class OeuvreController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth')->only(['create', 'store', 'edit','destroy','show' ]);
+
+     //   $this->middleware('');
+      
+
+    }
     /**
      * Display a listing of the resource.
      *

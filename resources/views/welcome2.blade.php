@@ -34,7 +34,7 @@
                     @endauth
                 </div>
             @endif
-
+<h1>welcome2</h1>
         </div>
         <script src="https://cdn.tailwindcss.com"></script>
     </body>
