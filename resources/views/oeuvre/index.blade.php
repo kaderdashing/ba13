@@ -28,3 +28,5 @@
     @endforeach        
 </div>
 @endsection
+
+@extends('layouts.app1')

@@ -19,7 +19,7 @@ class Authenticate extends Middleware
         if (! $request->expectsJson()) {
           //  return route('login');
           // faire la redirection a la page racine (la return route login est pour retourner la page login par defaut)
-          return property_exists($this, 'redirectTo') ? $this->redirectTo : '/'; 
+          return property_exists($this, 'redirectTo') ? $this->redirectTo : ('/'); 
         }
     }
 }
