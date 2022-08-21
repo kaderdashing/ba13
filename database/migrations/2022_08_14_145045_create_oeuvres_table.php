@@ -18,6 +18,8 @@ class CreateOeuvresTable extends Migration
             $table->string('name');
             $table->string('type');
             $table->string('file_path');
+            $table->integer('price')->nullable();
+
             $table->timestamps();
         });
     }
