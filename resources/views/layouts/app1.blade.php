@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footer" class="mt-5">
 <footer class="text-center text-white " style="background-color: #f1f1f1;">
   <div class="container pt-9">
     <div class="flex justify-center mb-9">
@@ -113,10 +113,3 @@
   </div>
 </footer>
 </div>
-<style>
-#footer {
-   position:absolute;
-   bottom:0;  /* on le colle en bas */
-   width:100%;
-}
-</style>

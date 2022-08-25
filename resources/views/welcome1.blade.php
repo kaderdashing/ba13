@@ -47,3 +47,11 @@
   </nav>
   <h1>welcome1</h1>
 <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+
+
+
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">

@@ -26,3 +26,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('oeuvre', OeuvreController::class);
+Route::get('/kader', function () {
+    return view('kader');
+});
