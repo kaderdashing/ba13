@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommandeController;
 use App\Models\oeuvre;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -17,15 +18,17 @@ use App\Http\Controllers\OeuvreController;
 |
 */
 //Route::view('/', 'welcome');
-
+/*
 Route::get('/', function () {
     return view('welcome');
-});
+}); */
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('oeuvre', OeuvreController::class);
+Route::get('/', [CommandeController::class,'create']);
+
 Route::get('/kader', function () {
     return view('kader');
 });

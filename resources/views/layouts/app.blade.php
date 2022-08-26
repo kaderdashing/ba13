@@ -138,7 +138,7 @@ transition: all 250ms ease-in-out 0s;
     </head>
      
     
-    <body class="">
+    <body class="" >
 
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">

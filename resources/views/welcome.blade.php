@@ -7,10 +7,20 @@
 
 @section('content')
 
+<br>
+<div class="container" id="app">
 
-<div class="container">
-salut
-</div>
+<br>
+
+      <br>
+    
+      <subscription-form />
+      
+    </div>
+
+    
+
+    <script src="{{asset('js/app.js')}} " defer></script>
 @endsection
 
 
