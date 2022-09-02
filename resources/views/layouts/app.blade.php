@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -181,7 +182,7 @@ transition: all 250ms ease-in-out 0s;
             </div>
 
 
-        <div class="container anis"> 
+        <div class="anis"> 
           @yield('content')
         </div>
 
